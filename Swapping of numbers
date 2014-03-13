@@ -1,0 +1,23 @@
+Package Sat_pak_Training;
+
+public class swap_numbers(){
+
+Scanner sathish = new Scanner(System.in);
+
+System.out.println("Enter the First Number :");
+int A1 = sathish.nextInt();
+
+System.out.println("Enter the Second Number :");
+int A2 = sathish.nextInt();
+
+
+int A3 = A1 + A2;
+A1 = A3 - A2;
+A2 = A3 - A1;
+
+
+System.out.println("Values After Swapping");
+System.out.println("Values After Swapping A1 = " +A1);
+System.out.println("Values After Swapping A2 = " +A2);
+
+}
