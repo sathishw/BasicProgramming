@@ -1,0 +1,21 @@
+package Sat_pak_Training;
+
+public class Fibboniccs_Series {
+	public static void main(String[] args) {
+	
+		int[] sathish = new int[15];
+		
+		sathish[0] = 0;
+		sathish[1] = 1;
+		
+		for(int i=2;i<sathish.length;i++){
+			sathish[i] = sathish[i-1]+sathish[i-2];
+		}
+		
+		for(int j=0;j<sathish.length;j++){
+			System.out.print(sathish[j] + " ");
+		}
+
+	}
+
+}
